@@ -1,0 +1,22 @@
+[2024-11-12 19:49:04,991] multiqc                                            [DEBUG  ]  This is MultiQC v1.19
+[2024-11-12 19:49:04,993] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc -d ./03_FastQC -o ./04_MultiQC
+[2024-11-12 19:49:05,063] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>
+[2024-11-12 19:49:05,063] multiqc                                            [DEBUG  ]  Working dir : /data/users/jimhof/rnaseq_course/02_Quality_check
+[2024-11-12 19:49:05,063] multiqc                                            [DEBUG  ]  Template    : default
+[2024-11-12 19:49:05,063] multiqc                                            [DEBUG  ]  Running Python 3.11.7 | packaged by conda-forge | (main, Dec 15 2023, 08:38:37) [GCC 12.3.0]
+[2024-11-12 19:49:05,063] multiqc                                            [INFO   ]  Prepending directory to sample names
+[2024-11-12 19:49:05,064] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, xenome, xengsort
+[2024-11-12 19:49:05,064] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /scratch/13572992/tmpx0a46f2e
+[2024-11-12 19:49:05,068] multiqc                                            [INFO   ]  Search path : /data/users/jimhof/rnaseq_course/02_Quality_check/03_FastQC
+[2024-11-12 19:49:05,556] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 448] // [skipped_no_match: 48]
+[2024-11-12 19:49:06,435] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.8.2
+[2024-11-12 19:49:06,441] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.8.2
+[2024-11-12 19:49:06,443] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2024-11-12 19:49:06,504] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 32 reports
+[2024-11-12 19:49:06,562] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2024-11-12 19:49:06,588] multiqc                                            [DEBUG  ]  Compressing plot data
+[2024-11-12 19:49:06,919] multiqc                                            [INFO   ]  Report      : 04_MultiQC/multiqc_report.html
+[2024-11-12 19:49:06,919] multiqc                                            [INFO   ]  Data        : 04_MultiQC/multiqc_data
+[2024-11-12 19:49:06,919] multiqc                                            [DEBUG  ]  Moving data file from '/scratch/13572992/tmpx0a46f2e/multiqc_data' to './04_MultiQC/multiqc_data'
+[2024-11-12 19:49:06,928] multiqc                                            [DEBUG  ]  Full report path: /data/users/jimhof/rnaseq_course/02_Quality_check/04_MultiQC/multiqc_report.html
+[2024-11-12 19:49:07,008] multiqc                                            [INFO   ]  MultiQC complete
