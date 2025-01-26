@@ -13,7 +13,7 @@ ANNOTATION_FILE=./../03_Read_mapping/01_Reference_genome_sequence_and_annotation
 INPUTDIR=./../03_Read_mapping/05_Samtool_Sorted_and_Indexed
 OUTPUTDIR=./01_Read_Counting
 
-#Index the coordinate sorted bam files
+#Count the reads
 apptainer exec \
  --bind /data/ /containers/apptainer/subread_2.0.6.sif \
  featureCounts -p -s 2 -T 8 -t 'exon' -g 'gene_id' -a $ANNOTATION_FILE -o $OUTPUTDIR/reads_counts.txt $INPUTDIR/*.bam
