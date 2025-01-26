@@ -30,5 +30,5 @@ Differential expression analysis includes the identification, investigation and 
 
 ## 7. Overrepresentation analysis
 
-To summarize the DE analysis results into gene ontology (GO) terms using the biological process (BP) subontology, the R packages clusterProfiler [Version 4.14.4], org.Mm.eg.db and ggplot2 [15, Version 3.5.1] were used. The R script used for this step is available under [07_Overrepresentation_analysis](https://github.com/TheNeuvillette/rnaseq_course/tree/main/07_Overrepresentation_analysis).
+To summarize the DE analysis results into gene ontology (GO) terms using the biological process (BP) subontology, the R packages clusterProfiler [Version 4.14.4], org.Mm.eg.db and ggplot2 [Version 3.5.1] were used. The R script used for this step is available under [07_Overrepresentation_analysis](https://github.com/TheNeuvillette/rnaseq_course/tree/main/07_Overrepresentation_analysis).
 
