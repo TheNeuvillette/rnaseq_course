@@ -26,9 +26,9 @@ The EDA workflow consisted of several steps beginning with the featureCounts out
 
 ## 6. Differential expression analysis
 
-Differential expression analysis includes the identification, investigation and visualization of DE genes between different experimental conditions, specifically between infected and control samples. The results of the previously run DE analysis using DESeq2 were extracted for both lung and blood pairwise contrasts (both times infected vs. control) and visualized using a volcano plot using the R package EnhancedVolcano [Version 1.24.0]. The R script used for the differential expression analysis is available under [06_Differential_expression_analysis](https://github.com/TheNeuvillette/rnaseq_course/tree/main/06_Differential_expression_analysis).
+Differential expression analysis includes the identification, investigation and visualization of DE genes between different experimental conditions, specifically between infected and control samples. The results of the previously run DE analysis using DESeq2 were extracted for both lung and blood pairwise contrasts (both times infected vs. control) and visualized using a volcano plot using the R packages EnhancedVolcano [Version 1.24.0] and org.Mm.eg.db [Version 3.20.0]. The R script used for the differential expression analysis is available under [06_Differential_expression_analysis](https://github.com/TheNeuvillette/rnaseq_course/tree/main/06_Differential_expression_analysis).
 
 ## 7. Overrepresentation analysis
 
-To summarize the DE analysis results into gene ontology (GO) terms using the biological process (BP) subontology, the R package clusterProfiler [Version 4.14.4] was used. The R script used for this step is available under [07_Overrepresentation_analysis](https://github.com/TheNeuvillette/rnaseq_course/tree/main/07_Overrepresentation_analysis).
+To summarize the DE analysis results into gene ontology (GO) terms using the biological process (BP) subontology, the R packages clusterProfiler [Version 4.14.4], org.Mm.eg.db and ggplot2 [15, Version 3.5.1] were used. The R script used for this step is available under [07_Overrepresentation_analysis](https://github.com/TheNeuvillette/rnaseq_course/tree/main/07_Overrepresentation_analysis).
 
