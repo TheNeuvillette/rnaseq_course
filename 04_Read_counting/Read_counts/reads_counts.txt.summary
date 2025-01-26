@@ -1,0 +1,15 @@
+Status	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821918_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821919_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821920_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821921_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821922_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821937_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821938_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821939_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821949_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821950_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821951_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821952_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821953_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821968_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821969_sorted.bam	./../03_Read_mapping/05_Samtool_Sorted_and_Indexed/SRR7821970_sorted.bam
+Assigned	58368450	57510123	57457245	64177422	59229746	71184694	68039803	73857727	44344197	33590785	49305165	34825464	31817722	39925529	25424969	33209000
+Unassigned_Unmapped	1949477	1914050	4686744	2215491	2014485	2228729	2259287	1787356	2627099	1799780	2521994	1374475	1394529	4115770	4559750	4264888
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	13209571	12891568	16542177	14365454	13753008	15924495	10471938	17599745	12977545	9716193	14417647	10075249	9758814	18810701	9043261	14637531
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	6158329	7430509	11109970	8441656	8312815	9232700	6630847	9782617	6667642	4786777	7771710	5259405	4774321	9303542	3772793	7360733
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	1257599	1254047	1142975	1387129	1209113	1275547	1332999	1462109	1152651	895730	1292816	912114	879045	918764	656661	796933
